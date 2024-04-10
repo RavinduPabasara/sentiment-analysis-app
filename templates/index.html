@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sentiment Analyzer</title>
+</head>
+<body>
+  <h1>Sentiment Analyzer</h1>
+  <form method="POST">
+    <label for="text">Enter text to analyze:</label>
+    <textarea id="text" name="text"></textarea>
+    <br>
+    <button type="submit">Analyze</button>
+  </form>
+  <p>Sentiment: {{ sentiment }}</p>
+</body>
+</html>
